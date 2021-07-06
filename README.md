@@ -12,7 +12,7 @@ In this lab I use the file **recentquotes.json** to show random popular book quo
 
 * Used **GSON** library to parse the **json** file.
 
-*  **`BufferedReader`** : It is a class from Java I/O classes, and it used for readind a reading files line by line.
+*  **`BufferedReader`** : It is a class from Java I/O classes, and it used for readind a text data from files line by line.
 
 ## Architecture
 
