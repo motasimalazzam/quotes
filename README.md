@@ -8,7 +8,7 @@
 
 In this lab I use the file **recentquotes.json** to show random popular book quotes and show the author.
 
-## Methods and Library
+### Methods and Library
 
 * Used **GSON** library to parse the **json** file.
 
