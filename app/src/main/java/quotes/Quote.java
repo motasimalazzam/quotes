@@ -1,10 +1,13 @@
 package quotes;
 
+import java.util.*;
+
 public class Quote {
     private String [] tags;
     private String author;
     private String LIKES;
     private String text;
+    private List<Quote> results;
 
     public Quote(String[] tags, String author, String LIKES, String text) {
         this.tags = tags;
@@ -27,6 +30,10 @@ public class Quote {
 
     public String getText() {
         return text;
+    }
+
+    public List<Quote> getResults() {
+        return results;
     }
 
     @Override
